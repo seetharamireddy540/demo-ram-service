@@ -1,7 +1,5 @@
 package com.example.library.multithreads;
 
-import javax.naming.Name;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;
