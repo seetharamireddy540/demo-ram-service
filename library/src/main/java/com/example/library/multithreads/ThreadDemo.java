@@ -41,7 +41,6 @@ public class ThreadDemo {
         }
         System.out.println("My Name is - "+ name);
 
-
         Executor executor = Executors.newSingleThreadExecutor();
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executor.execute(() -> System.out.println("test"));
